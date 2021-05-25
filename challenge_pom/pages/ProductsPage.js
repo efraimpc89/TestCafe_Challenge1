@@ -3,7 +3,6 @@ import { Selector, t } from 'testcafe'
 class ProductsPage {
 
     constructor(){
-        this.lblProducts = Selector('span[class="title"]').withText('Products')
         this.btnBurgerMenu = Selector('#react-burger-menu-btn')
         this.linkAllItems = Selector('#inventory_sidebar_link')
         this.linkAbout = Selector('#about_sidebar_link')

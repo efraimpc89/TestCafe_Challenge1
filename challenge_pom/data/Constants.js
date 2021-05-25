@@ -15,7 +15,13 @@ export const CREDENTIALS = {
 
 export const YOUR_INFORMATION = {
     VALID_INFO:{
-        FIRST_NAME:'standard_user',
-        LAST_NAME:'secret_sauce'
+        FIRST_NAME:'John',
+        LAST_NAME:'Test',
+        ZIP: '80000'
+    },
+    MISSING_FIRST_NAME:{
+        FIRST_NAME:'',
+        LAST_NAME:'Test',
+        ZIP: '80000'
     }
 }

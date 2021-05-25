@@ -15,8 +15,9 @@ class LoginPage {
     }
 
     async submitLoginForm(credentials){
-        await t.typeText(this.txtUsername, credentials.USERNAME, {paste:true})
-        await t.typeText(this.txtPassword, credentials.PASSWORD, {paste:true})
+        await t
+            .typeText(this.txtUsername, credentials.USERNAME, {paste:true})
+            .typeText(this.txtPassword, credentials.PASSWORD, {paste:true})
         this.clickLoginBtn()
     }
 
