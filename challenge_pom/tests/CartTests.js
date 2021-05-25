@@ -1,7 +1,7 @@
 import LoginPage from '../pages/LoginPage'
 import ProductsPage from '../pages/ProductsPage'
 import CartPage from '../pages/CartPage'
-import { URLS, CREDENTIALS} from '../data/Constants'
+import { URLS, CREDENTIALS } from '../data/Constants'
 
 fixture('Shopping Cart Feature Test')
     .page(URLS.LOGIN_PAGE)
