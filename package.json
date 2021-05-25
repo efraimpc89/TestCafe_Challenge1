@@ -1,0 +1,23 @@
+{
+  "name": "challenge1_efraimpc",
+  "version": "1.0.0",
+  "description": "Challenge 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efraimpc89/TestCafe_Challenge1.git"
+  },
+  "author": "Efraim Peña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efraimpc89/TestCafe_Challenge1/issues"
+  },
+  "homepage": "https://github.com/efraimpc89/TestCafe_Challenge1#readme",
+  "dependencies":{
+    "testcafe": "^1.14.2"
+  }
+
+}
