@@ -3,8 +3,9 @@ import ProductsPage from '../pages/ProductsPage'
 import CartPage from '../pages/CartPage'
 import COYourInformationPage from '../pages/COYourInformationPage'
 import COOverviewPage from '../pages/COOverviewPage'
-import { URLS, CREDENTIALS, YOUR_INFORMATION } from '../data/Constants'
 import COCompletePage from '../pages/COCompletePage'
+import { URLS, CREDENTIALS, YOUR_INFORMATION } from '../data/Constants'
+
 
 
 fixture('Checkout Feature Test')
@@ -34,7 +35,7 @@ fixture('Checkout Feature Test')
         await t.expect(COOverviewPage.lblItemBackpack.exists).ok()
     })
 
-    test('10 - Final order items', async t => {
+    test('10 - Complete a purchase', async t => {
         await COYourInformationPage.submitYourInformationForm(YOUR_INFORMATION.VALID_INFO)
         await t
             .click(COOverviewPage.btnFinish)
