@@ -26,7 +26,22 @@ https://docs.google.com/document/d/1k2s0FRrw1NdJCD5BlnuD4pkrf9EUHFfnKZj9fzFM9r4/
 2. Clone github repository: 
 	> git clone https://github.com/efraimpc89/TestCafe_Challenge1.git
 3. Navigate to *TestCafe_Challenge1* folder and execute following command:
-	> testcafe chrome ./challenge_pom/tests/
+
+	To run all tests on Chrome only:
+
+		 npm run test-all-chrome
+
+	To run all tests on Firefox only:
+
+		 npm run test-all-firefox
+
+	To run all tests on Safari only:
+
+		 npm run test-all-safari
+
+	To run all tests on all installed browsers:
+
+		 npm run test-all-EveryBrowser
 
 ## Contact
 

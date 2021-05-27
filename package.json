@@ -1,10 +1,13 @@
 {
   "name": "challenge1_efraimpc",
   "version": "1.0.0",
-  "description": "Challenge 1",
+  "description": "Challenge Exercises - Front End - TestCafe",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-all-chrome": "testcafe chrome ./challenge_pom/tests/",
+    "test-all-firefox": "testcafe firefox ./challenge_pom/tests/",
+    "test-all-safari": "testcafe safari ./challenge_pom/tests/",
+    "test-all-EveryBrowser": "testcafe safari ./challenge_pom/tests/"
   },
   "repository": {
     "type": "git",
